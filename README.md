@@ -8,7 +8,7 @@ For more details, please refer to our papar, and our paper is comming soon.
 
 
 ## Acknowledgement
-This work is built on the open-sourced [BevDet](https://github.com/HuangJunJie2017/BEVDet),[BevDepth](https://github.com/Megvii-BaseDetection/BEVDepth) and the published code of [CenterPoint](https://github.com/tianweiy/CenterPoint).
+This work is built on the open-sourced [BevDet](https://github.com/HuangJunJie2017/BEVDet),[BevDepth](https://github.com/Megvii-BaseDetection/BEVDepth) and the published code of [CenterFusion](https://github.com/mrnabati/CenterFusion).
 
 ## License
 This project is released under the Apache 2.0 license.
