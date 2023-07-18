@@ -1,0 +1,7 @@
+build/
+mmdetection/
+.idea
+res_pkls/
+data/
+**/__pycache__
+mmdetection
