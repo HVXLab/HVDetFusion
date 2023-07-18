@@ -4,7 +4,7 @@ This is the official implementation of HVDetFusion. In this work, we integrates 
 
 For more details, please refer to our paper, and our paper is comming soon.
 
-![image](img/HVDetFusion_process.jpg)
+![image](img/hvdet_process.pdf)
 ## Install
 **Step 0.** Download and install Miniconda from the [official website](https://docs.conda.io/en/latest/miniconda.html).
 **Step 1.** Create a conda environment and activate it.
