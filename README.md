@@ -91,18 +91,6 @@ python3 tools/create_data_hvdet.py
 bash hvdet_test.sh
 ```
 
-=======
-  python3 tools/create_data_hvdet.py
-```
-
-# Inference
-```
-bash hvdet_test.sh
-```
->>>>>>> 03f7b10d385e4cc5285c342e3b66b5da0e5ea24e
-
-
-
 ## Acknowledgement
 This work is built on the open-sourced [BevDet](https://github.com/HuangJunJie2017/BEVDet),[BevDepth](https://github.com/Megvii-BaseDetection/BEVDepth) and the published code of [CenterFusion](https://github.com/mrnabati/CenterFusion).
 
