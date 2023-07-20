@@ -5,3 +5,5 @@ res_pkls/
 data/
 **/__pycache__
 mmdetection
+checkpoint/
+tools/convter2onnx/onnx_output

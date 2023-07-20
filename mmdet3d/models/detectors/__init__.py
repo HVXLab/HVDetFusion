@@ -1,8 +1,8 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from .base import Base3DDetector
-from .bevdet import BEVDepth4DRadarFusion
+from .bevdet import HVDetFusion
 
 
 __all__ = [
-    'BEVDepth4DRadarFusion', 'Base3DDetector'
+    'HVDetFusion', 'Base3DDetector'
 ]

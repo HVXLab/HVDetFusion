@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument('onnx_dir', help='work dir to save file')
     parser.add_argument('--checkpoint', default='./checkpoint/backbone.pth', help='checkpoint file')
     parser.add_argument(
-        '--prefix', default='bevdepth4d-radarfusion', help='prefix of the save file name')
+        '--prefix', default='hvdet', help='prefix of the save file name')
     parser.add_argument(
         '--fuse-conv-bn',
         action='store_true',

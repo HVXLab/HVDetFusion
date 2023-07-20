@@ -52,9 +52,10 @@ bash make.sh
 ```
 
 **Step 6.** HVDetFusion
-
-`cd {HVDetFusion PATH}`
-`pip install -v -e .`
+```
+cd {HVDetFusion PATH}
+pip install -v -e .
+```
 ## Prepare Datasets
 - Prepare nuScenes dataset
 Download nuScenes 3D detection [data](https://www.nuscenes.org/download) and unzip all zip files.
@@ -73,10 +74,20 @@ HVDetFusion
 |   |   ├── v1.0-trainval
 ```
 - get *.pkl file by command:
-    `python3 tools/create_data_hvdet.py`
+```
+python3 tools/create_data_hvdet.py
+```
+
+# Download checkpoints
+- download [backbone](https://drive.google.com/file/d/1EKIFO0OhA_m5PFB3PoKBgA-sqUwdypNg/view?usp=sharing) into ./checkpoint
+- download [onnx_stage1](https://drive.google.com/file/d/1Axj6HlAZ6hCEkWnqVesRDXjsE_LqSl_b/view?usp=sharing) [onnx_stage1_1](https://drive.google.com/file/d/1U0TqBTz3v-zkgTfyVgCMmrg3Dmo7Fqcy/view?usp=sharing) [onnx_stage2](https://drive.google.com/file/d/17WI0N9lyME1ZSfR4ftG_JcT5yYjkpEMs/view?usp=sharing) [onnx_stage3](https://drive.google.com/file/d/1uv95hDg-KW7Cw0RG8w9NfWGQAdoi0YY0/view?usp=sharing) into ./tools/convter2onnx
+- check args.prefix in tools/HVDet_infer.py 
 
 # Inference
-`bash hvdet_test.sh`
+```angular2html
+bash hvdet_test.sh
+```
+
 
 
 

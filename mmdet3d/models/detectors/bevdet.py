@@ -5,10 +5,10 @@ from .. import builder
 from .base import Base3DDetector
 
 @DETECTORS.register_module()
-class BEVDepth4DRadarFusion(Base3DDetector): 
+class HVDetFusion(Base3DDetector):
     def __init__(self, img_backbone, img_view_transformer, pts_bbox_head, radar_cfg=None,
                  train_cfg=None, test_cfg=None, pretrained=None, num_adj=11, **kwargs):
-        super(BEVDepth4DRadarFusion, self).__init__(**kwargs)
+        super(HVDetFusion, self).__init__(**kwargs)
         self.num_frame = num_adj + 1
         if img_backbone:
             self.img_backbone = builder.build_backbone(img_backbone)

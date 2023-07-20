@@ -78,7 +78,7 @@ bevflip_direction=None
 
 
 model = dict(
-    type='BEVDepth4DRadarFusion',
+    type='HVDetFusion',
     num_adj=num_adj,
     img_backbone=dict(
         type='InternImage',
