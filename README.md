@@ -78,7 +78,6 @@ HVDetFusion
 ```
 - get *.pkl file by command:
 ```
-<<<<<<< HEAD
 python3 tools/create_data_hvdet.py
 ```
 
