@@ -4,19 +4,21 @@ This is the official implementation of HVDetFusion. In this work, we integrates 
 
 For more details, please refer to our paper, and our paper is comming soon.
 
-![image](img/HVDetFusion_process.jpg)
+![image](img/hvdet_process.jpg)
 ## Install
 **Step 0.** Download and install Miniconda from the [official website](https://docs.conda.io/en/latest/miniconda.html).
-**Step 1.** Create a conda environment and activate it.
 
+**Step 1.** Create a conda environment and activate it.
 ```shell
 conda create --name hvdetfusion python=3.8 -y
 conda activate hvdetfusion
 ```
+
 **Step 2.** Install PyTorch following [official instructions](https://pytorch.org/get-started/locally/),
 ```shell
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
+
 **Step 3.** Install mmdet3d
 ```shell
 pip install mmcv-full==1.6.2
@@ -27,7 +29,6 @@ cd mmdetection
 git checkout v2.28.1  
 pip install -r requirements/build.txt
 pip install -v -e .
-cd ..
 
 git clone https://github.com/open-mmlab/mmdetection3d.git
 cd mmdetection3d
@@ -37,6 +38,7 @@ pip install -v -e .  # or "python setup.py develop"
 pip install  numba==0.53.0
 pip install numpy==1.23.5
 ```
+
 **Step 4.** Install onnx
 ```
 pip install onnx
@@ -52,10 +54,10 @@ bash make.sh
 ```
 
 **Step 6.** HVDetFusion
-```
-cd {HVDetFusion PATH}
-pip install -v -e .
-```
+`cd {HVDetFusion PATH}`
+`pip install -v -e .`
+
+>>>>>>> 03f7b10d385e4cc5285c342e3b66b5da0e5ea24e
 ## Prepare Datasets
 - Prepare nuScenes dataset
 Download nuScenes 3D detection [data](https://www.nuscenes.org/download) and unzip all zip files.
@@ -75,6 +77,7 @@ HVDetFusion
 ```
 - get *.pkl file by command:
 ```
+<<<<<<< HEAD
 python3 tools/create_data_hvdet.py
 ```
 
@@ -88,6 +91,15 @@ python3 tools/create_data_hvdet.py
 bash hvdet_test.sh
 ```
 
+=======
+  python3 tools/create_data_hvdet.py
+```
+
+# Inference
+```
+bash hvdet_test.sh
+```
+>>>>>>> 03f7b10d385e4cc5285c342e3b66b5da0e5ea24e
 
 
 
